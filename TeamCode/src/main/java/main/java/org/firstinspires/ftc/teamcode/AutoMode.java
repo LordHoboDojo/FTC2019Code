@@ -50,7 +50,6 @@ public class AutoMode extends LinearOpMode {
         while (opModeIsActive() && runtime.seconds()<.25)
         {
             //party
-            // In Dec28 branch
         }
         leftDrive.setPower(0);
         rightDrive.setPower(0);
