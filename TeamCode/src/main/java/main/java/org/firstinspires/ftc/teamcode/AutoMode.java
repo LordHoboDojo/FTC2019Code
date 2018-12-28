@@ -27,10 +27,10 @@ public class AutoMode extends LinearOpMode {
         //Party
     }
 
-    leftDrive.setPower(-.5);
-    rightDrive.setPower(-.5);
+    leftDrive.setPower(-3);
+    rightDrive.setPower(-3);
     runtime.reset();
-    while (opModeIsActive() && runtime.seconds()<2.5)
+    while (opModeIsActive() && runtime.seconds()<5)
     {
         //party
     }
